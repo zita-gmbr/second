@@ -1,0 +1,49 @@
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-weight: 700;  
+}
+
+body {
+    font-size: 16px;
+    line-height: 2;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+   
+
+}
+
+img { 
+    margin-bottom: 20px;}
+
+blockquote {
+        margin: 0;
+        
+    }
+    
+blockquote p {
+        padding: 15px;
+        background: #eee;
+        border-radius: 5px;
+    }
+    
+blockquote p::before {
+        content: '\201C';
+    }
+    blockquote p::after {
+        content: '\201D';
+    }
